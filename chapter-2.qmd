@@ -1,0 +1,12 @@
+---
+title: "Chapter 2"
+format: html
+---
+
+
+```{r}
+library(bayesrules)
+library(dplyr)
+library(janitor)
+```
+
