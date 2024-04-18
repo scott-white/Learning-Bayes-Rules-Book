@@ -1,0 +1,16 @@
+---
+title: "Chapter 3"
+format: html
+---
+
+```{r}
+library(bayesrules)
+library(dplyr)
+```
+
+
+
+```{r}
+plot_beta(45, 55)
+```
+

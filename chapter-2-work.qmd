@@ -29,3 +29,11 @@ fake_news %>%
 
 ## Section 2.1
 
+Key concepts:
+
+- Prior probability model
+- Posterior probability model
+- Conditional probability
+- Difference between conditional probability and the likelihood function
+
+
