@@ -7,6 +7,25 @@ format: html
 ```{r}
 library(bayesrules)
 library(dplyr)
-library(janitor)
+library(janito)
 ```
+
+# Section 2
+
+
+```{r}
+fake_news %>% 
+  tabyl(type) %>% 
+  adorn_totals("row")
+```
+
+
+```{r}
+fake_news %>% 
+  tabyl(title_has_excl, type) %>% 
+  adorn_totals("row")
+```
+
+
+## Section 2.1
 
