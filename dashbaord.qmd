@@ -1,0 +1,66 @@
+---
+title: "Dashboard Test"
+format: dashboard
+---
+
+## Row
+
+```{r}
+#| fig-width: 10
+#| fig-height: 8
+plot(cars)
+```
+
+
+## Value Box Row
+
+```{r}
+#| content: valuebox
+#| title: "First Value"
+#| color: primary
+list(value = 45)
+```
+
+
+```{r}
+#| content: valuebox
+#| title: "Second Value"
+#| color: info
+list(value = 55)
+```
+
+
+```{r}
+#| content: valuebox
+#| title: "Third Value"
+#| color: warning
+list(value = 65)
+```
+
+
+
+## Row {.tabset}
+
+```{r}
+#| title: Chart 2
+#| fig-width: 5
+#| fig-height: 4
+plot(pressure)
+```
+
+
+```{r}
+#| title: Chart 3
+#| fig-width: 5
+#| fig-height: 4
+plot(airmiles)
+```
+
+
+## Row
+
+```{r}
+library(DT)
+datatable(mtcars)
+```
+
